@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Test = ({ counter, increment, save, clear, decrement }) => {
     return (
         <div>
-            <h1 className="counter">{ counter }</h1>
+            <h1 className="counter">Очки: <i>{ counter }</i></h1>
             <div className="btns">
                 <button className="btn btn-inc" onClick={increment}>+</button>
                 <button className="btn btn-save" onClick={save}>Save</button>
