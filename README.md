@@ -1,4 +1,4 @@
-To use project you need: NodeJS, yarn.
+To use project you need: NodeJS, yarn and git on your computer.
 
 Commands to start:
 yarn start or yarn run start
