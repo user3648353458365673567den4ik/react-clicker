@@ -24,6 +24,8 @@ function App() {
     if (counter !== 0) {
       setResults(results.concat(counter))
       setCounter(0)
+
+      console.log("Данные сохранены успешно ;)");
     }
   }
 
